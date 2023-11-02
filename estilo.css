@@ -470,7 +470,7 @@ html {
     color: #ff6600;
     margin-bottom: 10px;
 }
-.certificaciones .fila .item p{
+.certificaciones .fila .item ul{
     line-height: 24px;
 }
 .certificaciones .fila .izq{
@@ -604,13 +604,13 @@ footer .arriba{
         width: 100%;
     }
 
-    .curriculum .fila{
+    .certificaciones .fila{
         display: block;
     }
-    .curriculum .fila .col{
+    .certificaciones .fila .col{
         width: 90%;
     }
-    .curriculum .fila .derecha{
+    .certificaciones .fila .derecha{
         margin-left: 20px;
     }
 
@@ -624,16 +624,10 @@ footer .arriba{
     .portfolio .galeria .proyecto img{
         width: 100%;
     }
-    .contacto .fila{
-        display: block;
-    }
-    .contacto .fila .col{
-        width: 100%;
-    }
 }
 @media screen and (max-width: 700px) {
     .animacion {
-        margin-top: 400px; /* Espacio entre la animación y el menú de navegación para pantallas pequeñas */
+        margin-top: 350px; /* Espacio entre la animación y el menú de navegación para pantallas pequeñas */
         padding: 2% 0; /* Ajusta el espaciado superior e inferior para pantallas pequeñas */
     }
     #typing-text {
